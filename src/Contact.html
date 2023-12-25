@@ -3,41 +3,112 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>SnapScape</title>
+    <link rel="stylesheet" href="main.css" />
   </head>
-  <body>
-    <header class="header">
-      <a href="#" class="logo"> SnapScape</a>
 
-      <nav class="navigationbar">
-        <a href="home.html">Home</a>
-        <a href="About.html">About</a>
-        <a href="My_Work.html">My Work</a>
-        <a href="Gallery.html">Gallary</a>
-        <a href="Contact.html">Contact</a>
-      </nav>
-    </header>
-    <section class="Contact" id="Contact">
-      <div class="home-content">
-        <h1>Contact</h1>
-        <div class="text-animation">
-          <h3>You can contact me on</h3>
-        </div>
-        <img src="/images/telegram (5).ico" alt="telegram" />
-        <a href="https://t.me/scorch_ed">Telegram</a><br />
-        <img src="/images/whatsapp.ico" alt="whatsapp" />
-        <a
-          href="https://wa.me/0984071423?text=Hello%2C%20this%20is%20SnapScape%20personal%20account%20what%20can%20I%20help%20you%20with"
-          >whatsapp</a
-        ><br />
-        <img src="/images/gmail_new_logo_icon_159149.ico" alt="gmail" />
-        <a href="https://misomaahmed@gmail.com">Gmail</a><br />
-        <img
-          src="/images/2849835-call-cell-communication-interface-multimedia-phone-telephone_108000.ico"
-          alt="call"
-        />
-        <a href="+251984071423">call</a>
+  <body class="font text-color background-color">
+    <header class="fixed-top bg-light navbar navbar-expand-lg navbar-light p-3">
+      <a href="#" class="navbar-brand text-color font-weight-bold">SnapScape</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="home.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="About.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="My_Work.html" class="nav-link">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a href="Gallery.html" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="Contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
       </div>
-    </section>
+    </header>
+
+    <div class="container mt-5">
+      <div class="d-flex flex-column align-items-center">
+        <h1 class="text-4xl mt-5 text-center text-success">Contact</h1>
+        <h3 class="text-2xl mt-4">You can contact me on</h3>
+      </div>
+
+      <ul class="d-flex justify-content-around mt-5 p-2 list-unstyled">
+        <li class="w-25 h-25">
+          <a
+            href="https://t.me/scorch_ed"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="img-fluid"
+              src="/src/image/telegram.png"
+              alt="telegram"
+            />
+          </a>
+        </li>
+
+        <li class="w-25 h-25">
+          <a
+            href="https://wa.me/0984071423?text=Hello%2C%20this%20is%20SnapScape%20personal%20account%20what%20can%20I%20help%20you%20with"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="img-fluid"
+              src="/src/image/whatsapp.ico"
+              alt="whatsapp"
+            />
+          </a>
+        </li>
+
+        <li class="w-25 h-25">
+          <a
+            href="mailto:misomaahmed@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="img-fluid"
+              src="/src/image/gmail_new_logo_icon_159149.ico"
+              alt="gmail"
+            />
+          </a>
+        </li>
+
+        <li class="w-25 h-25">
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img class="img-fluid" src="/src/image/twitter.ico" alt="twitter" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <footer class="p-2 text-color text-center text-sm mt-5">
+      <p>&copy; 2023 SnapScape. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
